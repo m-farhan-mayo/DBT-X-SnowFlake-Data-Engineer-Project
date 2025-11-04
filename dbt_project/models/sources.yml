@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  # This is the 'bronze' name referenced in {{ source('bronze', '...') }}
+  - name: bronze 
+    # This is the actual schema name in your database (e.g., Snowflake, Synapse)
+    schema: BRONZE 
+    
+    tables:
+      # All these tables must exist in the 'BRONZE' schema in your database
+      - name: customers
+      - name: products
+      - name: orders
+      - name: orderitems
+      - name: regions

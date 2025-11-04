@@ -27,3 +27,111 @@ Happy modeling!
 [0m15:33:43.322677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6788DB490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E677C48710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E678902360>]}
 [0m15:33:43.323266 [debug] [MainThread]: Flushing usage events
 [0m15:33:45.196112 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:42:48.676650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020902B106E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020903AE1310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020904553ED0>]}
+
+
+============================== 15:42:48.683160 | cfe8e5a8-5351-4da2-8985-bae23de810fb ==============================
+[0m15:42:48.683160 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m15:42:48.684417 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'use_colors': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Farhan MaYo\\.dbt', 'invocation_command': 'dbt debug', 'printer_width': '80', 'target_path': 'None'}
+[0m15:42:48.738164 [info ] [MainThread]: dbt version: 1.11.0-b3
+[0m15:42:48.739295 [info ] [MainThread]: python version: 3.13.9
+[0m15:42:48.740207 [info ] [MainThread]: python path: C:\Users\Farhan MaYo\Data-Build-Tool\dbt_venv\Scripts\python.exe
+[0m15:42:48.741115 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:42:49.579610 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m15:42:49.580959 [info ] [MainThread]: Using profiles dir at C:\Users\Farhan MaYo\.dbt
+[0m15:42:49.581844 [info ] [MainThread]: Using profiles.yml file at C:\Users\Farhan MaYo\.dbt\profiles.yml
+[0m15:42:49.582719 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Farhan MaYo\Data-Build-Tool\dbt_project.yml
+[0m15:42:49.583739 [info ] [MainThread]: Configuration:
+[0m15:42:49.584605 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:42:49.585487 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:42:49.586536 [info ] [MainThread]: Required dependencies:
+[0m15:42:49.587602 [debug] [MainThread]: Executing "git --help"
+[0m15:42:49.648543 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:42:49.649313 [debug] [MainThread]: STDERR: "b''"
+[0m15:42:49.649942 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:42:49.650851 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:42:49.651712 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:42:49.652526 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "farhan_dbt_practice_dev", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m15:42:49.653749 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Farhan MaYo\Data-Build-Tool\dbt_project.yml> not found
+
+[0m15:42:49.655987 [debug] [MainThread]: Command `dbt debug` failed at 15:42:49.655775 after 1.24 seconds
+[0m15:42:49.656633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209059C5350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209059B3890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020905906470>]}
+[0m15:42:49.657372 [debug] [MainThread]: Flushing usage events
+[0m15:42:51.519477 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:45:09.985151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B80DAE06E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B80AECC7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B80F55A0D0>]}
+
+
+============================== 15:45:10.008676 | 2bcc82d1-d22d-4f0e-9d29-270e508e0a06 ==============================
+[0m15:45:10.008676 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m15:45:10.010043 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Farhan MaYo\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m15:45:10.440999 [info ] [MainThread]: dbt version: 1.11.0-b3
+[0m15:45:10.442086 [info ] [MainThread]: python version: 3.13.9
+[0m15:45:10.442972 [info ] [MainThread]: python path: C:\Users\Farhan MaYo\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
+[0m15:45:10.443730 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m15:45:19.995480 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m15:45:20.001611 [info ] [MainThread]: Using profiles dir at C:\Users\Farhan MaYo\.dbt
+[0m15:45:20.005565 [info ] [MainThread]: Using profiles.yml file at C:\Users\Farhan MaYo\.dbt\profiles.yml
+[0m15:45:20.010103 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Farhan MaYo\Data-Build-Tool\dbt_project.yml
+[0m15:45:20.013087 [info ] [MainThread]: Configuration:
+[0m15:45:20.015726 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:45:20.018590 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:45:20.025248 [info ] [MainThread]: Required dependencies:
+[0m15:45:20.027991 [debug] [MainThread]: Executing "git --help"
+[0m15:45:20.228698 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:45:20.231394 [debug] [MainThread]: STDERR: "b''"
+[0m15:45:20.233133 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:45:20.236306 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:45:20.240110 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:45:20.242935 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "farhan_dbt_practice_dev", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m15:45:20.246934 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Farhan MaYo\Data-Build-Tool\dbt_project.yml> not found
+
+[0m15:45:20.256100 [debug] [MainThread]: Command `dbt debug` failed at 15:45:20.254822 after 10.53 seconds
+[0m15:45:20.259002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B810997360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8109F8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8108F7790>]}
+[0m15:45:20.261259 [debug] [MainThread]: Flushing usage events
+[0m15:45:23.830639 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:35:57.964456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018682AE06E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001867FEBC7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001868455A0D0>]}
+
+
+============================== 16:35:57.977619 | ad996fcc-dc3e-4f3e-b45f-c0e6fd21e49d ==============================
+[0m16:35:57.977619 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m16:35:57.979788 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\Farhan MaYo\\.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m16:35:57.981378 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Farhan MaYo\Data-Build-Tool\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:35:57.985171 [debug] [MainThread]: Command `dbt run` failed at 16:35:57.984801 after 0.44 seconds
+[0m16:35:57.986380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001868445F100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186845B5490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186841FD9D0>]}
+[0m16:35:57.987518 [debug] [MainThread]: Flushing usage events
+[0m16:35:59.930724 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:37:08.005495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5A0BE06E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E59DFBC7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5A285A0D0>]}
+
+
+============================== 16:37:08.011198 | b819c40c-6364-46c5-9a29-9ddfbfb6eb56 ==============================
+[0m16:37:08.011198 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m16:37:08.012253 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\Farhan MaYo\\.dbt'}
+[0m16:37:08.012970 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Farhan MaYo\Data-Build-Tool\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:37:08.014929 [debug] [MainThread]: Command `dbt run` failed at 16:37:08.014729 after 0.21 seconds
+[0m16:37:08.015495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5A255F100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5A28B1490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5A24FD9D0>]}
+[0m16:37:08.016058 [debug] [MainThread]: Flushing usage events
+[0m16:37:09.809001 [debug] [MainThread]: An error was encountered while trying to flush usage events
